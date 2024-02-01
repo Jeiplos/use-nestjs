@@ -10,15 +10,6 @@
   "monorepo": true,
   "root": "apps/hellow-world",
   "projects": {
-    "hellow-world": {
-      "type": "application",
-      "root": "apps/hellow-world",
-      "entryFile": "main",
-      "sourceRoot": "apps/hellow-world/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/hellow-world/tsconfig.app.json"
-      }
-    },
     "sub1": {
       "type": "application",
       "root": "apps/sub1",
@@ -26,6 +17,15 @@
       "sourceRoot": "apps/sub1/src",
       "compilerOptions": {
         "tsConfigPath": "apps/sub1/tsconfig.app.json"
+      }
+    },
+    "hellow-world": {
+      "type": "application",
+      "root": "apps/hellow-world",
+      "entryFile": "main",
+      "sourceRoot": "apps/hellow-world/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/hellow-world/tsconfig.app.json"
       }
     }
   }
